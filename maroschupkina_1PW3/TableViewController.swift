@@ -7,18 +7,21 @@
 
 import UIKit
 class TableViewController: UIViewController {
+    private var alarms: [AlarmView] = []
     var tableView: UITableView!
-    let cellId = "MyCell"
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        for _ in 0...100 { alarms.append(
+            AlarmView())
+        }
         // Do any additional setup after loading the view.
     }
     private func setupTableView() {
         let rect = CGRect(x: 0, y: 15, width: view.frame.width, height: view.frame.height - 30)
         
         tableView = UITableView(frame: rect)
-        tableView.register(EyeCell.self, forCellReuseIdentifier: "eyeCell")
+        tableView.register(TableCell.self, forCellReuseIdentifier: "tableCell")
         tableView.dataSource = self
         tableView.delegate = self
         
@@ -32,13 +35,13 @@ class TableViewController: UIViewController {
         self.view.addSubview(tableView)
     }
     
-
-
+    
+    
 }
 extension TableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection
                     section: Int) -> Int {
-        300
+        alarms.count
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         1
@@ -49,10 +52,10 @@ extension TableViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath:
                     IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(
-            withIdentifier: "eyeCell",
+            withIdentifier: "tableCell",
             for: indexPath
-        ) as? EyeCell
-        cell?.setupEye()
+        ) as? TableCell
+        //cell?.setupEye()
         return cell ?? UITableViewCell()
     }
 }
