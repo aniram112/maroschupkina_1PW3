@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA707F727219AC300A3980D /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA707F627219AC300A3980D /* AlarmView.swift */; };
+		7EA707F927219B2500A3980D /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA707F827219B2500A3980D /* TimeModel.swift */; };
+		7EA707FB27219C7400A3980D /* StackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA707FA27219C7400A3980D /* StackCell.swift */; };
+		7EB702D52724A6CE005A0630 /* EyeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB702D42724A6CE005A0630 /* EyeCell.swift */; };
 		7EF608282714936000B6547B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF608272714936000B6547B /* AppDelegate.swift */; };
 		7EF6082A2714936000B6547B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF608292714936000B6547B /* SceneDelegate.swift */; };
 		7EF6082C2714936000B6547B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6082B2714936000B6547B /* ViewController.swift */; };
-		7EF6082F2714936000B6547B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6082D2714936000B6547B /* Main.storyboard */; };
 		7EF608312714936400B6547B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF608302714936400B6547B /* Assets.xcassets */; };
 		7EF608342714936400B6547B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF608322714936400B6547B /* LaunchScreen.storyboard */; };
+		7EF6083C27149C6F00B6547B /* UIView_Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6083B27149C6F00B6547B /* UIView_Pin.swift */; };
+		7EF6083E2714A6E400B6547B /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6083D2714A6E400B6547B /* StackViewController.swift */; };
+		7EF608402714A71E00B6547B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6083F2714A71E00B6547B /* TableViewController.swift */; };
+		7EF608422714A73C00B6547B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF608412714A73C00B6547B /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EA707F627219AC300A3980D /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		7EA707F827219B2500A3980D /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		7EA707FA27219C7400A3980D /* StackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCell.swift; sourceTree = "<group>"; };
+		7EB702D42724A6CE005A0630 /* EyeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCell.swift; sourceTree = "<group>"; };
 		7EF608242714936000B6547B /* maroschupkina_1PW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maroschupkina_1PW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF608272714936000B6547B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF608292714936000B6547B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7EF6082B2714936000B6547B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7EF6082E2714936000B6547B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EF608302714936400B6547B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF608332714936400B6547B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF608352714936400B6547B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF6083B27149C6F00B6547B /* UIView_Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView_Pin.swift; path = ../../../../../Downloads/UIView_Pin.swift; sourceTree = "<group>"; };
+		7EF6083D2714A6E400B6547B /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		7EF6083F2714A71E00B6547B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7EF608412714A73C00B6547B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		7EF608262714936000B6547B /* maroschupkina_1PW3 */ = {
 			isa = PBXGroup;
 			children = (
+				7EB702D42724A6CE005A0630 /* EyeCell.swift */,
+				7EA707F827219B2500A3980D /* TimeModel.swift */,
+				7EF6083B27149C6F00B6547B /* UIView_Pin.swift */,
 				7EF608272714936000B6547B /* AppDelegate.swift */,
 				7EF608292714936000B6547B /* SceneDelegate.swift */,
 				7EF6082B2714936000B6547B /* ViewController.swift */,
-				7EF6082D2714936000B6547B /* Main.storyboard */,
 				7EF608302714936400B6547B /* Assets.xcassets */,
 				7EF608322714936400B6547B /* LaunchScreen.storyboard */,
 				7EF608352714936400B6547B /* Info.plist */,
+				7EF6083D2714A6E400B6547B /* StackViewController.swift */,
+				7EF6083F2714A71E00B6547B /* TableViewController.swift */,
+				7EF608412714A73C00B6547B /* CollectionViewController.swift */,
+				7EA707F627219AC300A3980D /* AlarmView.swift */,
+				7EA707FA27219C7400A3980D /* StackCell.swift */,
 			);
 			path = maroschupkina_1PW3;
 			sourceTree = "<group>";
@@ -126,7 +147,6 @@
 			files = (
 				7EF608342714936400B6547B /* LaunchScreen.storyboard in Resources */,
 				7EF608312714936400B6547B /* Assets.xcassets in Resources */,
-				7EF6082F2714936000B6547B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +158,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EF6082C2714936000B6547B /* ViewController.swift in Sources */,
+				7EF608402714A71E00B6547B /* TableViewController.swift in Sources */,
+				7EB702D52724A6CE005A0630 /* EyeCell.swift in Sources */,
+				7EA707FB27219C7400A3980D /* StackCell.swift in Sources */,
+				7EA707F727219AC300A3980D /* AlarmView.swift in Sources */,
 				7EF608282714936000B6547B /* AppDelegate.swift in Sources */,
+				7EA707F927219B2500A3980D /* TimeModel.swift in Sources */,
+				7EF6083E2714A6E400B6547B /* StackViewController.swift in Sources */,
+				7EF608422714A73C00B6547B /* CollectionViewController.swift in Sources */,
+				7EF6083C27149C6F00B6547B /* UIView_Pin.swift in Sources */,
 				7EF6082A2714936000B6547B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +174,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7EF6082D2714936000B6547B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EF6082E2714936000B6547B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7EF608322714936400B6547B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F2X87BUET;
 				INFOPLIST_FILE = maroschupkina_1PW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "marina.maroschupkina-1PW3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F2X87BUET;
 				INFOPLIST_FILE = maroschupkina_1PW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "marina.maroschupkina-1PW3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
